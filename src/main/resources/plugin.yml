@@ -1,0 +1,11 @@
+main: com.github.xenon.entityquiz.plugin.EntityQuizPlugin
+name: EntityQuiz
+version: 1.0
+commands:
+  eq:
+    permission: command.eq
+    description: command for entity quiz
+permissions:
+  command.eq:
+    description: permission for eq command
+    default: op
